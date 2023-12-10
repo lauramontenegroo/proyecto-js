@@ -1,6 +1,12 @@
 let montoTotal = prompt("Ingrese el monto a abonar")
-
 let encendido = true
+
+
+if(montoTotal <= 0){
+    alert("Debe ingresar un monto mayor que 0")
+    prompt("Ingrese el monto a abonar")
+} 
+
 
 while(encendido){
     let opcion = parseInt(prompt(
